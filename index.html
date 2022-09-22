@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Rubik&display=swap" rel="stylesheet">
+    <!-- Website icon -->
+    <link rel="icon" href="" />
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/32ad6db3cf.js" crossorigin="anonymous"></script>
+
+    <title>Muhammed Osman | Web Developer</title>
+</head>
+<body>
+
+    <nav data-toggled="false" data-transitionable="false">
+
+        <div id="nav-logo-section" class="nav-section">
+            <a href="#">
+                <i class="fa-solid fa-code"></i>
+            </a>
+        </div>
+
+        <div id="nav-mobile-section">
+            <div id="nav-link-section" class="nav-section">
+                <a href="#">ABOUT</a>
+                <a href="#">WORK</a>
+            </div>
+            <div id="nav-social-section" class="nav-section">
+                <a href="https://www.linkedin.com/in/muhail/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Muh-Osman" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.youtube.com/c/notCodes/" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://twitter.com/muh_ail" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+            <div id="nav-contact-section" class="nav-section">
+                    <a href="#">Contact</a>
+            </div>
+        </div>
+        <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+            <span>Menu</span>
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </nav>
+  
+    <main>
+        <article data-index="0" data-status="active">
+            <div class="article-image-section article-section">
+                <img src="/Orginalls.png" alt="">
+            </div>
+            <div class="article-description-section article-section">
+                <p>
+                    My name is <span style="color:#0a80fe;">Muhammed Osman</span>
+                    <br>
+                    I enjoy creating things that live on the internet. My interest in web development started back in 2017 when I joined the One Million Arab Coders Initiative! Since then, I have not stopped programming & thinking about the web!
+                </p>
+            </div>
+            <div class="article-title-section article-section name">
+                <h2>Hi there &#128075;</h2>
+                <h2>I’m Muhammed</h2>
+                <p>Full-Stack Web Developer</p>
+            </div>
+            
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="1" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section skills">
+                <div>
+                    <ul>
+                        <li class="father">
+                            JS
+                            <ul>
+                                <li class="son">TypeScript</li>
+                                <li class="son">API</li>
+                                <li class="son">JSON</li>
+                            </ul>
+                        </li>
+                        <li class="father">
+                            PHP
+                            <ul>
+                                <li class="son">WordPress</li>
+                                <li class="son">Laravel</li>
+                                <li class="son">MySQL</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="father">
+                            Python
+                            <ul>
+                                <li class="son">SQLite</li>
+                            </ul>
+                        </li>
+                        <li class="father">
+                            CSS
+                                <ul>
+                                    <li class="son">Bootstrap</li>
+                                    <li class="son">SASS</li>
+                                </ul>
+                        </li>
+                        <li class="father">HTML</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="article-title-section article-section">
+                <h2 style="font-size: 30px; flex-basis: 100%;">Here are a few technologies I’ve been working with recently:</h2>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="2" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>
+                The neatest lighthouse you ever saw. Ehh, actually it's kind of
+                messy. But that's why the pic is of the outside.
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Neato Toledo Lighthouse</h2>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="3" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>
+                The blobiest of blobs nestled deep in the heart of outer space.
+                Well, technically the universe is both infinite and homogeneous so
+                there isn't really a heart, per se.
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Super Space Blob</h2>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
