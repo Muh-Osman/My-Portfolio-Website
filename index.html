@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Rubik&display=swap" rel="stylesheet">
     <!-- Website icon -->
-    <link rel="icon" href="" />
+    <link rel="icon" type="image/x-icon" href="./images/code.ico" />
     <!-- CSS file -->
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/32ad6db3cf.js" crossorigin="anonymous"></script>
@@ -28,21 +28,21 @@
 
         <div id="nav-mobile-section">
             <div id="nav-link-section" class="nav-section">
-                <a href="#">ABOUT</a>
-                <a href="#">WOR</a>
+                <a href="https://caramellaapp.com/muh_osman" target="_blank">BLOG</a>
+                <a href="#" id="work_btn">WORK</a>
             </div>
             <div id="nav-social-section" class="nav-section">
                 <a href="https://www.linkedin.com/in/muhail/" target="_blank">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
-                <a href="https://github.com/Muh-Osman" target="_blank">
+                <a href="https://github.com/muh-osman" target="_blank">
                     <i class="fa-brands fa-github"></i>
                 </a>
                 <a href="https://www.youtube.com/c/notCodes/" target="_blank">
                     <i class="fa-brands fa-youtube"></i>
                 </a>
                 <a href="https://twitter.com/muh_ail" target="_blank">
-                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
                 </a>
             </div>
             <div id="nav-contact-section" class="nav-section">
@@ -58,17 +58,17 @@
     <main>
         <article data-index="0" data-status="active">
             <div class="article-image-section article-section">
-                <img src="Orginalls.png" alt="">
+                <img src="./images/me.png" alt="">
             </div>
             <div class="article-description-section article-section">
                 <p>
-                    My name is <span style="color:#0a80fe;">Muhammed Osman</span>, my interest in web development started back in 2017 when I joined the One Million Arab Coders Initiative!
+                    My name is <span style="color:#0a80fe;">Muhammed Osman</span> and I am a React front-end developer with +1 year of experience building websites and web applications.
                 </p>
             </div>
             <div class="article-title-section article-section name">
                 <h2>Hi there &#128075;</h2>
                 <h2>I’m Muhammed</h2>
-                <p>Full-Stack Web Developer</p>
+                <p>Front-End Web Developer</p>
             </div>
             
             <div class="article-nav-section article-section">
@@ -80,6 +80,7 @@
                 </button>
             </div>
         </article>
+
         <article data-index="1" data-status="inactive">
             <div class="article-image-section article-section"></div>
             <div class="article-description-section article-section skills">
@@ -124,7 +125,7 @@
 
             </div>
             <div class="article-title-section article-section">
-                <h2 style="font-size: 30px; flex-basis: 100%;">Here are a few technologies I’ve been working with recently:</h2>
+                <h2 style="font-size: 30px; flex-basis: 100%;">Technologies I’ve been working with:</h2>
             </div>
             <div class="article-nav-section article-section">
                 <button class="article-nav-button" type="button" onclick="handleLeftClick()">
@@ -135,7 +136,8 @@
                 </button>
             </div>
         </article>
-        <article data-index="2" data-status="inactive">
+
+        <article data-index="2" data-status="inactive" id="work">
             <div class="article-image-section article-section"></div>
             <div class="article-description-section article-section">
                 <p>
@@ -155,6 +157,7 @@
                 </button>
             </div>
         </article>
+
         <article data-index="3" data-status="inactive">
             <div class="article-image-section article-section"></div>
             <div class="article-description-section article-section">
@@ -177,6 +180,9 @@
             </div>
         </article>
     </main>
+    
     <script src="app.js"></script>
+
+
 </body>
 </html>

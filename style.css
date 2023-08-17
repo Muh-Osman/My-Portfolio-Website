@@ -1,7 +1,7 @@
 :root {
     --background-color: rgb(6, 11, 25);
     --border-color: rgb(255, 255, 255, 0.1);
-    --highlight-color: rgb(126, 87, 194);
+    --highlight-color: rgb(10, 128, 254);
     --yt-color: rgb(229, 57, 53);
   }
   
@@ -191,7 +191,6 @@
 
 
   main > article:first-child > .article-image-section > img {
-    filter: grayscale(100%);
     display: block;
     margin: auto;
     height: 100%;
@@ -240,15 +239,15 @@
   }
   
   main > article:nth-child(2) > .article-image-section {
-    background-image: url("https://images.unsplash.com/photo-1535905557558-afc4877a26fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80");
+    background-image: url("./images/library.avif");
   }
   
   main > article:nth-child(3) > .article-image-section {
-    background-image: url("https://images.unsplash.com/photo-1660580554695-d2ca5008f1f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80");
+    background-image: url("./images/lighthouse.avif");
   }
   
   main > article:nth-child(4) > .article-image-section {
-    background-image: url("https://images.unsplash.com/photo-1660766877755-4cac24f6cf21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2232&q=80");
+    background-image: url("./images/galaxy.avif");
   }
   
   main > article > .article-image-section {
