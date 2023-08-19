@@ -243,10 +243,16 @@ main > article:nth-child(2) > .article-image-section {
 }
 
 main > article:nth-child(3) > .article-image-section {
-  background-image: url("./images/lighthouse.avif");
+  background-image: url("./images/work/0.jpg");
 }
 
 main > article:nth-child(4) > .article-image-section {
+  background-image: url("./images/work/5.jpg");
+}
+main > article:nth-child(5) > .article-image-section {
+  background-image: url("./images/work/6.jpg");
+}
+main > article:nth-child(6) > .article-image-section {
   background-image: url("./images/galaxy.avif");
 }
 
@@ -264,6 +270,7 @@ main > article > .article-description-section {
 main > article > .article-description-section > p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1.25em;
+  line-height: 1.4;
 }
 
 main > article > .article-description-section > p > a:hover {
@@ -573,4 +580,12 @@ header a {
   100% {
     transform: translateX(-50%);
   }
+}
+
+/*  */
+.lang {
+  border: 1px solid #ffffff80;
+  border-radius: 3px;
+  color: #ffffff80;
+  padding: 0 2px;
 }
