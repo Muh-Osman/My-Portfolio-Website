@@ -25,7 +25,7 @@ a,
 p,
 span {
   font-family: "Rubik", sans-serif;
-  font-weight: 400;
+  /* font-weight: 400; */
   color: white;
   margin: 0px;
 }
@@ -253,7 +253,10 @@ main > article:nth-child(5) > .article-image-section {
   background-image: url("./images/work/6.jpg");
 }
 main > article:nth-child(6) > .article-image-section {
-  background-image: url("./images/galaxy.avif");
+  background-image: url("./images/work/7.jpg");
+}
+main > article:nth-child(7) > .article-image-section {
+  background-image: url("./images//work/8.jpg");
 }
 
 main > article > .article-image-section {
