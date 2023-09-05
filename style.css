@@ -258,6 +258,15 @@ main > article:nth-child(6) > .article-image-section {
 main > article:nth-child(7) > .article-image-section {
   background-image: url("./images//work/8.jpg");
 }
+main > article:nth-child(8) > .article-image-section {
+  background-image: url("./images//work/9.jpg");
+}
+main > article:nth-child(9) > .article-image-section {
+  background-image: url("./images//work/10.jpg");
+}
+main > article:nth-child(10) > .article-image-section {
+  background-image: url("./images//work/11.jpg");
+}
 
 main > article > .article-image-section {
   background-position: center;
