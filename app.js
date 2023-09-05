@@ -55,11 +55,12 @@ window.matchMedia("(max-width: 800px)").onchange = (e) => {
 // Work Button
 document.getElementById("work_btn").addEventListener("click", function (event) {
   event.preventDefault();
+  handleNavToggle(); // swipe mobile navbar up
 
   const work = document.getElementById("work");
 
   if (work.dataset.status !== "active") {
-    console.log(work.dataset.status);
+    // console.log(work.dataset.status);
 
     const nextIndex = 2;
 
@@ -79,4 +80,32 @@ document.getElementById("work_btn").addEventListener("click", function (event) {
   }
 });
 
+// Contact Button
+document
+  .getElementById("contact_btn")
+  .addEventListener("click", function (event) {
+    event.preventDefault();
+    handleNavToggle(); // swipe mobile navbar up
 
+    const contact = document.getElementById("contact");
+
+    if (contact.dataset.status !== "active") {
+      // console.log(contact.dataset.status);
+
+      const nextIndex = 10;
+
+      const currentSlide = document.querySelector(
+          `[data-index="${activeIndex}"]`
+        ),
+        nextSlide = document.querySelector(`[data-index="${nextIndex}"]`);
+
+      currentSlide.dataset.status = "before";
+
+      nextSlide.dataset.status = "becoming-active-from-after";
+
+      setTimeout(() => {
+        nextSlide.dataset.status = "active";
+        activeIndex = nextIndex;
+      });
+    }
+  });

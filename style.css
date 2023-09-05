@@ -30,6 +30,23 @@ span {
   margin: 0px;
 }
 
+form input,
+form button {
+  font-family: "Rubik", sans-serif !important;
+  padding: 12px !important;
+  height: 50px;
+}
+
+form textarea {
+  font-family: "Rubik", sans-serif !important;
+  padding: 12px !important;
+}
+
+form input,
+form textarea {
+  background-color: #fefefe !important;
+}
+
 a {
   text-decoration: none;
 }
@@ -256,16 +273,19 @@ main > article:nth-child(6) > .article-image-section {
   background-image: url("./images/work/7.jpg");
 }
 main > article:nth-child(7) > .article-image-section {
-  background-image: url("./images//work/8.jpg");
+  background-image: url("./images/work/8.jpg");
 }
 main > article:nth-child(8) > .article-image-section {
-  background-image: url("./images//work/9.jpg");
+  background-image: url("./images/work/9.jpg");
 }
 main > article:nth-child(9) > .article-image-section {
-  background-image: url("./images//work/10.jpg");
+  background-image: url("./images/work/10.jpg");
 }
 main > article:nth-child(10) > .article-image-section {
-  background-image: url("./images//work/11.jpg");
+  background-image: url("./images/work/11.jpg");
+}
+main > article:nth-child(11) > .article-image-section {
+  background-image: url("./images/work/12.png");
 }
 
 main > article > .article-image-section {
@@ -489,19 +509,6 @@ main > article .yt-link > i {
 }
 
 /*  */
-body {
-  /* background: #1e293b; */
-  /* color: #f8fafc; */
-}
-
-/* .app {
-  min-width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-} */
 
 header {
   display: flex;
@@ -573,16 +580,16 @@ header a {
 }
 
 .fade {
-  pointer-events: none;
+  pointer-events: none !important;
   background: linear-gradient(
     90deg,
     var(--background-color),
     transparent 30%,
     transparent 70%,
     var(--background-color)
-  );
-  position: absolute;
-  inset: 0;
+  ) !important;
+  position: absolute !important;
+  inset: 0 !important;
 }
 
 @keyframes loop {
@@ -600,4 +607,38 @@ header a {
   border-radius: 3px;
   color: #ffffff80;
   padding: 0 2px;
+}
+
+/* Contact */
+#contact .article-image-section {
+  padding: 64px;
+}
+
+#contact .article-image-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+#contact .article-image-section input {
+  max-width: 50%;
+  padding: 12px;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  #contact .article-image-section {
+    padding: 32px;
+  }
+}
+
+.input-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
 }
