@@ -642,3 +642,26 @@ button {
   flex-wrap: nowrap;
   gap: 10px;
 }
+
+.contact-page h1 {
+  margin-bottom: 32px;
+}
+
+.contact-page i {
+  margin-right: 10px;
+}
+
+.contact-page h3 {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+.contact-page a {
+  color: #ffffff80;
+}
+
+.contact-page a:hover {
+  color: #0a80fe;
+}
