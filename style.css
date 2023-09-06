@@ -284,9 +284,9 @@ main > article:nth-child(9) > .article-image-section {
 main > article:nth-child(10) > .article-image-section {
   background-image: url("./images/work/11.jpg");
 }
-main > article:nth-child(11) > .article-image-section {
+/* main > article:nth-child(11) > .article-image-section {
   background-image: url("./images/work/12.png");
-}
+} */
 
 main > article > .article-image-section {
   background-position: center;
