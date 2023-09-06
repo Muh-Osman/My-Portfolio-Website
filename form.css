@@ -3010,8 +3010,6 @@ fieldset:disabled .btn {
   --bs-btn-border-radius: var(--bs-border-radius-sm);
 }
 
-
-
 .collapse:not(.show) {
   display: none;
 }
@@ -5093,7 +5091,6 @@ fieldset:disabled .btn {
   margin: var(--bs-modal-margin);
   pointer-events: none;
 }
-
 
 .modal.show .modal-dialog {
   transform: none;
